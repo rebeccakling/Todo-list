@@ -1,0 +1,116 @@
+body {
+    background-image: url(../images/backgroundImages.jpg);
+    min-height: 100vh;
+    background-size: cover;
+}
+
+.title {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 50px;
+    margin-top: 10px; 
+    color: darkslategray;
+    
+}
+
+.done {
+    font-family: 'PT Sans', sans-serif;
+    font-size: 40px;
+    margin-top: 10px; 
+    color: darkslategray;
+}
+
+
+li {
+    font-family: 'PT Sans', sans-serif;
+    list-style: none;
+    margin: 10px;
+    color: darkslategray;
+
+}
+
+#btnAdd {
+    font-family: 'PT Sans', sans-serif;
+    background: transparent;
+    font-size: 18px;
+    border: none;
+    color: darkslategray;
+    
+}
+
+.doneBox {
+    color: whitesmoke; 
+    border: 1px solid gray;
+    border-radius: 3px;
+    
+}
+
+.lineThrough {
+    text-decoration: line-through;
+    color:  darkslategray;
+}
+
+input[type=checkbox]:checked ~ p {
+    color:  darkslategray;
+   
+}
+
+p {
+    display: inline;
+    font-family: Quicksand;
+}
+
+.toDoCard {
+    background-color: rgba(255, 255,255, .8);
+    margin: 100px;
+    min-height: 400px; 
+    box-shadow: 0 19px 38px rgba(0,0,0,0.30), 0 15px 12px rgba(0,0,0,0.22);
+}
+
+.remove {
+    background: transparent;
+    font-size: 15px;
+    border: none;
+    color: gray;
+    font-family: Quicksand;
+}
+
+.sortMyToDo {
+    font-family: 'PT Sans';
+    background-color: darkslategray;
+    font-size: 15px;
+    color: white;
+    border-radius: 5px;
+}
+
+.sortMyToDoBack {
+    font-family: 'PT Sans';
+    background-color: white;
+    font-size: 15px;
+    color: darkslategray;
+    border-radius: 5px;
+}
+
+@media screen and (min-width: 768px) { 
+    .toDoCard {
+        margin: 150px;
+        min-height: 500px; 
+      
+    
+    }
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
